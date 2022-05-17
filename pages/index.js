@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import Work from '../components/Work';
 import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
@@ -15,6 +16,7 @@ export default function Home() {
       <div className={styles.hero}>
       HELLO
      </div>
+     <Work />
      </div>
   )
 }
