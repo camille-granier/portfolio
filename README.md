@@ -1,4 +1,5 @@
+# Personal Portfolio
 
-## Getting Started
+## Technologies
 
-
+React, next, sass
