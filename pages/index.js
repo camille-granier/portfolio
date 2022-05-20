@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Work from '../components/Work';
+import Contact from '../components/Contact';
 import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
