@@ -1,2 +1,13 @@
-import ContactStyles from '../styles/Contact.module.scss';
+import ContactStyles from '../styles/_Contact.module.scss';
 
+import React from 'react';
+
+const Contact = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default Contact;

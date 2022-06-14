@@ -1,8 +1,9 @@
-@import './_mixins.scss';
-@import './_variables.scss';
+@import './styles/_mixins';
+@import './styles/_variables';
+
 
 .hero {
-  font-size: 400px;
+  font-size: $lg;
 }
 
 
