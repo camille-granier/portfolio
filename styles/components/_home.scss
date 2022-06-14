@@ -1,11 +1,9 @@
-@import './styles/_mixins';
-@import './styles/_variables';
 
 
-.hero {
+.title {
   font-size: $lg;
 }
 
-.title {
+.sm-title {
   font-size: $md;
 }

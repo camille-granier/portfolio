@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
-import About from '../components/About';
+import Hero from '../components/Hero';
 import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Image from 'next/image';
@@ -14,12 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <div className='hero'>
-      Camille Granier
-     </div>
-     <br/>
-     <div className='title'>Front-end developer</div>
-     <About />
+      <Hero />
      <Work />
      <Contact />
      </div>
