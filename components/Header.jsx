@@ -1,10 +1,9 @@
 import React from 'react';
-import HeaderStyles from '../styles/_Header.module.scss';
 
 const Header = () => {
     return (
-        <div className={HeaderStyles.header}>
-            <nav className={HeaderStyles.nav}>
+        <div className='header'>
+            <nav className='nav'>
                 <a href="#">Home</a>
                 <a href="#about">About</a>
                 <a href="#work">Work</a>
