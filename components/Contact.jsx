@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
 
-    const [text, setText] = useState('');
+    const copyToClipboard = (e) => {
 
-    const copyToClipboard = async (e) => {
-        setText(e.target.value)
-
-        await navigator.clipboard.writeText(text);
+        navigator.clipboard.writeText('granierc@protonmail.com');
     }
 
     return (

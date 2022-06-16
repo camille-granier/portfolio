@@ -3,6 +3,14 @@
   height: auto;
 }
 
+.hero-container {
+  margin: 5vh;
+  padding: 20px;
+  border: solid 1px black;
+  min-height: 90vh;
+  height: auto;
+}
+
 h1 {
   font-family: sans-serif;
   font-size: $lg;
