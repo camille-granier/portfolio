@@ -12,6 +12,9 @@ export default function Home() {
         <title>Camille Granier</title>
         <meta name="description" content="Camille Granier - front end developer portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap" rel="stylesheet"/>
       </Head>
      <Header/>
      <Hero />
