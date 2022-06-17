@@ -4,6 +4,8 @@
 }
 
 .hero-container {
+  display: flex;
+  flex-direction: row;
   margin: 5vh;
   padding: 20px;
   border: solid 1px black;

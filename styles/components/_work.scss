@@ -3,8 +3,41 @@
     min-height: 100vh;
     height: auto;
     ul {
+        display: flex;
+        flex-direction: column;
         li {
             list-style-type: none;
+            padding: 2rem;
+
+            a {
+                padding: 2rem;
+            }
         }
     }
+}
+
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+img:hover {
+        filter: none;
+        opacity: 1;
+        transition: opacity 1s ease;
+}
+
+.photo-gallery {
+    align-self: end;
+}
+
+.work-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-title {
+    padding: 2rem;
+    font-family: Roboto;
 }

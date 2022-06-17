@@ -1,4 +1,18 @@
 .contact {
     min-height: 100vh;
     height: auto;
+    padding: 3rem;
+
+    h2 {
+        font-family: Roboto;
+        padding: 3rem 0;
+    }
+}
+
+button {
+    border: none;
+    background-color: $beige;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
 }

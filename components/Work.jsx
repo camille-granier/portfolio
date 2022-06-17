@@ -4,7 +4,8 @@ const Work = () => {
     return (
         <div className='work'>
             <ul>
-                <li>Project 1
+                <li className='ffnotes'>
+                    <div className='work-card'>
                     <a
                     href='https://ffnotes.com/'
                     rel='noreferrer'
@@ -13,10 +14,13 @@ const Work = () => {
                                alt='ffnotes thumbnail'
                                width={500}
                                height={263}/>
-                    Final Fantasy Notes
                     </a>
+                    <p className='work-title'>Final Fantasy Notes</p>
+                    </div>
                 </li>
-                <li>Project 2
+                <li className='photo-gallery'>
+                    <div className='work-card'>
+                    <p className='work-title'>Photo Gallery</p>
                     <a
                     href='https://pictures-photo-gallery.herokuapp.com/'
                     rel='noreferrer'
@@ -26,11 +30,12 @@ const Work = () => {
                         alt='photogallery thumbnail'
                         width={500}
                         height={263}/>
-                    Photo Gallery
                     </a>
+                    </div>
                 </li>
-                <li>Project 3
-                    <a
+                <li className='eshop'>
+                    <div className='work-card'>
+                        <a
                     href='https://complete-e-shop.web.app/'
                     rel='noreferrer'
                     target='_blank'>
@@ -39,8 +44,9 @@ const Work = () => {
                         alt='eshop thumbnail'
                         width={500}
                         height={263}/>
-                    E-shop
                     </a>
+                    <p className='work-title'>eShop</p>
+                    </div>
                 </li>
             </ul>
         </div>
