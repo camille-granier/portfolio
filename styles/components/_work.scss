@@ -13,18 +13,18 @@
             }
         }
     }
-}
 
-img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    opacity: 0.25;
-}
-
-img:hover {
-        filter: none;
-        opacity: 1;
-        transition: opacity 1s ease;
+    img {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        opacity: 0.25;
+    }
+    
+    img:hover {
+            filter: none;
+            opacity: 1;
+            transition: opacity 1s ease;
+    }
 }
 
 .photo-gallery {

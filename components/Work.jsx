@@ -2,7 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 const Work = () => {
     return (
-        <div className='work'>
+        <div className='work'
+             id='work'>
             <ul>
                 <li className='ffnotes'>
                     <div className='work-card'>

@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Camille Granier</title>
         <meta name="description" content="Camille Granier - front end developer portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/cat.svg" />
       </Head>
      <Header/>
      <Hero />
