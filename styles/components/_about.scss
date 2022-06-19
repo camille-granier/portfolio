@@ -1,7 +1,14 @@
-
 .about {
-    font-size: $sm;
-    padding: 20px;
-    justify-self: end;
+    font-size: 1.4rem;
     align-self: end;
+    text-align: right;
+}
+
+@include breakpoint-up(medium) {
+    .about {
+        font-size: $sm;
+        padding: 20px;
+        justify-self: end;
+        align-self: end;
+    }
 }

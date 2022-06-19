@@ -4,6 +4,9 @@
 }
 
 .hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   border: solid 1px black;
   min-height: 90vh;
   height: auto;
@@ -11,12 +14,20 @@
   padding: 60px 20px 10px 20px;
 }
 
+.title-container {
+  font-family: Roboto;
+  h1 {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
 @include breakpoint-up(medium) {
 
 .hero-container {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 90px 20px;
 }
 
 h1 {
@@ -28,6 +39,6 @@ h1 {
 
 .sm-title {
   font-size: $md;
-  padding: 20px;
+  padding: 0px 20px;
 }
 }
