@@ -16,8 +16,10 @@ const Work = () => {
                                width={500}
                                height={263}/>
                     </a>
+                    <div className='work-card-text'>
                     <h3 className='work-title'>Final Fantasy Notes</h3>
                     <p>A tribute to the Final Fantasy franchise</p>
+                    </div>
                     </div>
                 </li>
                 <li className='photo-gallery'>
@@ -31,9 +33,11 @@ const Work = () => {
                         alt='photogallery thumbnail'
                         width={500}
                         height={263}/>
+                    </a>
+                    <div className='work-card-text'>
                     <h3 className='work-title'>Photo Gallery</h3>
                     <p>Photo Gallery from Unsplash</p>
-                    </a>
+                    </div>
                     </div>
                 </li>
                 <li className='eshop'>
@@ -48,8 +52,10 @@ const Work = () => {
                         width={500}
                         height={263}/>
                     </a>
+                    <div className='work-card-text'>
                     <h3 className='work-title'>eShop</h3>
                     <p>eShop experience</p>
+                    </div>
                     </div>
                 </li>
             </ul>

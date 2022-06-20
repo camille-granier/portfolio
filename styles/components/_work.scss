@@ -1,6 +1,7 @@
 .work {
     min-height: 100vh;
     height: auto;
+
     ul {
         display: flex;
         flex-direction: column;
@@ -9,8 +10,7 @@
         padding: 0px;
         li {
             list-style-type: none;
-            margin: 6vh 8vh;   
-           
+            margin: 6vh 8vh;    
         }
         
         p {
@@ -41,21 +41,39 @@ img:hover {
 }
 
 @include breakpoint-up(medium) {
-
-    .photo-gallery {
-        align-self: flex-end;
-    }
     
-    .work-card {
+    .work-card  {
         display: flex;
-        justify-content: space-between;
+        width: 90vw;
+        h3 {
+            padding: 0px;
+            margin: 0px;
+        }
     }
-
-    .work-title {
-        padding: 2rem;
+    .work-card-text {
+        max-width: 15vh;
+        padding: 0px .5rem;
+        align-self: flex-start;
     }
 
     .work {
+
+        p {
+            padding: 0px;
+        }
+
+       ul { li {
+            margin: 5vh;
+        }
+    }
+
+        a {
+            justify-self: flex-start;
+            width: 500px;
+            height: 250px;
+            padding-right: 80px;
+        }
+
     img {
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
