@@ -16,12 +16,12 @@ const Work = () => {
                                width={500}
                                height={263}/>
                     </a>
-                    <p className='work-title'>Final Fantasy Notes</p>
+                    <h3 className='work-title'>Final Fantasy Notes</h3>
+                    <p>A tribute to the Final Fantasy franchise</p>
                     </div>
                 </li>
                 <li className='photo-gallery'>
                     <div className='work-card'>
-                    <p className='work-title'>Photo Gallery</p>
                     <a
                     href='https://pictures-photo-gallery.herokuapp.com/'
                     rel='noreferrer'
@@ -31,6 +31,8 @@ const Work = () => {
                         alt='photogallery thumbnail'
                         width={500}
                         height={263}/>
+                    <h3 className='work-title'>Photo Gallery</h3>
+                    <p>Photo Gallery from Unsplash</p>
                     </a>
                     </div>
                 </li>
@@ -46,7 +48,8 @@ const Work = () => {
                         width={500}
                         height={263}/>
                     </a>
-                    <p className='work-title'>eShop</p>
+                    <h3 className='work-title'>eShop</h3>
+                    <p>eShop experience</p>
                     </div>
                 </li>
             </ul>

@@ -1,6 +1,6 @@
 .about {
     font-size: 1.4rem;
-    align-self: end;
+    align-self: flex-end;
     text-align: right;
 }
 
@@ -8,7 +8,7 @@
     .about {
         font-size: $sm;
         padding: 20px;
-        justify-self: end;
-        align-self: end;
+        justify-self: flex-end;
+        align-self: flex-end;
     }
 }

@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     position: fixed;
     margin: 0px;
@@ -13,6 +13,10 @@
 .logo {
     width: 40px;
     height: 40px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 @include breakpoint-up(medium) {
@@ -23,7 +27,7 @@
 
    .nav { 
     padding: 1.25rem 3rem;
-    justify-content: flex-end
+    justify-content: flex-end;
    }
 
    a {
