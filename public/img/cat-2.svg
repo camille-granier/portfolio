@@ -1,14 +1,1 @@
-<svg width="394" height="371" viewBox="0 0 394 371" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_4_11)">
-<path d="M31.4235 102.293C27.008 96.3424 32.3575 88.1049 39.5898 89.7182L173.828 119.662C179.272 120.876 181.833 127.149 178.796 131.827L126.512 212.337C123.474 217.015 116.702 217.226 113.378 212.747L31.4235 102.293Z" fill="#0D0D0D" fill-opacity="0.99"/>
-<path d="M324.43 15.673C328.427 11.7102 335.189 14.9355 334.625 20.5355L320.736 158.324C320.32 162.457 315.932 164.926 312.183 163.138L227.73 122.856C223.981 121.068 223.139 116.104 226.089 113.18L324.43 15.673Z" fill="#0D0D0D" fill-opacity="0.99"/>
-<ellipse cx="225.565" cy="214.53" rx="112.741" ry="111.393" transform="rotate(-10 225.565 214.53)" fill="#0D0D0D" fill-opacity="0.99"/>
-<rect x="166" y="222.095" width="48" height="3.72964" rx="1.86482" transform="rotate(-8.5 166 222.095)" fill="#E6DED1"/>
-<rect x="245" y="207.335" width="48" height="3.82802" rx="1.91401" transform="rotate(-10 245 207.335)" fill="#E6DED1"/>
-</g>
-<defs>
-<clipPath id="clip0_4_11">
-<rect width="344.028" height="315.428" fill="white" transform="translate(0 59.7399) rotate(-10)"/>
-</clipPath>
-</defs>
-</svg>
+<svg width="394" height="371" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M31.424 102.293c-4.416-5.95.934-14.188 8.166-12.575l134.238 29.944c5.444 1.214 8.005 7.487 4.968 12.165l-52.284 80.51c-3.038 4.678-9.81 4.889-13.134.41L31.424 102.293zM324.43 15.673c3.997-3.963 10.759-.738 10.195 4.862l-13.889 137.789c-.416 4.133-4.804 6.602-8.553 4.814l-84.453-40.282c-3.749-1.788-4.591-6.752-1.641-9.676l98.341-97.507z" fill="#0D0D0D" fill-opacity=".99"/><ellipse cx="225.565" cy="214.53" rx="112.741" ry="111.393" transform="rotate(-10 225.565 214.53)" fill="#0D0D0D" fill-opacity=".99"/><rect x="166" y="222.095" width="48" height="3.73" rx="1.865" transform="rotate(-8.5 166 222.095)" fill="#E6DED1"/><rect x="245" y="207.335" width="48" height="3.828" rx="1.914" transform="rotate(-10 245 207.335)" fill="#E6DED1"/></g><defs><clipPath id="a"><path fill="#fff" transform="rotate(-10 341.415 29.87)" d="M0 0h344.028v315.428H0z"/></clipPath></defs></svg>

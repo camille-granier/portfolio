@@ -11,7 +11,11 @@ export default function Home() {
       <Head>
         <title>Camille Granier</title>
         <meta name="description" content="Camille Granier - front end developer portfolio" />
-        <link rel="icon" href="/img/cat.svg" />
+        <link 
+        rel="icon" 
+        href="/img/cat.svg"
+        width="300"
+        height="300" />
       </Head>
      <Header/>
      <Hero />

@@ -6,6 +6,16 @@
 @import './components/_work';
 @import './components/_contact';
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/assets/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Rosario";
+  src: url("../public/assets/Rosario-Light.ttf");
+}
+
 
 html {
   font-size: 100%;
