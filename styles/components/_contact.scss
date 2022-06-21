@@ -52,6 +52,9 @@ button {
 
 @include breakpoint-up(medium) {
     .contact {
+
+        padding: 3rem 5rem;
+
         .email, button {
             font-size: $sm;
         }
