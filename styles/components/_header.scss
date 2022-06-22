@@ -40,9 +40,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 1.25rem 0rem;
+    padding: 1.25rem;
 
     a {
         padding: .675rem;
     }
+}
+
+@include breakpoint-up(large) {
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        }
 }

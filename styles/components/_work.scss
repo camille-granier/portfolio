@@ -22,7 +22,7 @@
     img {
     -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
     filter: grayscale(50%);
-    opacity: 0.35;
+    opacity: 0.45;
 }
 
 img:hover {
@@ -42,6 +42,10 @@ img:hover {
 
 @include breakpoint-up(medium) {
     
+    .photo {
+        flex-direction: row-reverse;
+    }
+
     .work-card  {
         display: flex;
         width: 90vw;
@@ -63,7 +67,7 @@ img:hover {
         }
 
        ul { li {
-            margin: 5vh;
+            margin: 7vh 5vh;
         }
     }
 
@@ -74,9 +78,22 @@ img:hover {
             padding-right: 80px;
         }
 
-    img {
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-    }
  }
+}
+
+@include breakpoint-up(large) {
+
+    a {
+        padding-right: 0px;
+    }
+
+    .work-card {
+        justify-content: space-around;
+        margin: 8vh 0px;
+    }
+
+   .work-card-text{
+    max-width: 40vh;
+   }
+
 }

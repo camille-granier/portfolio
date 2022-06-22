@@ -63,3 +63,15 @@ button {
         }
     }
 }
+
+@include breakpoint-up(large) {
+    .contact {
+        padding: 3rem 4.25rem;
+    .email, button {
+        font-size: $x-sm;
+    }
+    .github {
+        font-size: $x-sm;
+    }
+    }
+}

@@ -24,7 +24,7 @@ const Work = () => {
             </div>
           </li>
           <li className="photo-gallery">
-            <div className="work-card">
+            <div className="work-card photo">
               <a
                 href="https://pictures-photo-gallery.herokuapp.com/"
                 rel="noreferrer"

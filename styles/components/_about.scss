@@ -7,7 +7,18 @@
 @include breakpoint-up(medium) {
     .about {
         font-size: $sm;
-        padding: 20px;
+        padding: 0px 20px;
+        max-width: 50vw;
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+}
+
+@include breakpoint-up(large) {
+    .about {
+        font-size: $sm;
+        padding: 0px 20px;
+        max-width: 35vw;
         justify-self: flex-end;
         align-self: flex-end;
     }
