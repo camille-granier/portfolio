@@ -27,7 +27,14 @@ const Contact = () => {
                 <a href='https://github.com/camille-granier' 
                    rel='noreferrer'
                    target='_blank'
-                   >@camille-granier</a>
+                   className='github-link'>
+                    <span className='mask'>
+                        <div className='github-link-container'>
+                        <span className="link-title-1 github-title">@camille-granier</span>
+                        <span className="link-title-2 github-title">@camille-granier</span>
+                        </div>
+                    </span>
+                   </a>
             </div>
             <div className='line'> </div>
             </div>

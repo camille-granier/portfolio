@@ -83,6 +83,10 @@ img:hover {
 
 @include breakpoint-up(large) {
 
+    .work {
+        margin: 0px 50vw;
+    }
+    
     a {
         padding-right: 0px;
     }
