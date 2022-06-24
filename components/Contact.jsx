@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Contact = () => {
+
+    const [isCopied, setIsCopied] = useState(false);
 
     const copyToClipboard = (e) => {
 
         navigator.clipboard.writeText('granierc@protonmail.com');
+        setIsCopied(true);
     }
+
+    useEffect(() => {
+        if (isCopied) {
+            setTimeout(() => {
+                setIsCopied(false)
+              }, 4000);
+            
+        }
+    }, [isCopied])
 
     return (
         <div className='contact'
@@ -15,11 +27,22 @@ const Contact = () => {
             <div className='line'> </div>
                 <div className='email'>
                 <p>Email</p>
+                <div className='link'>
+                <span className='mask'>
+                <div className='email-link-container'>
                 <button 
-                className='email'
+                className='email link-title-1 email-title'
                 id='email'
                 value='granierc@protonmail.com'
                 onClick={copyToClipboard}>granierc@protonmail.com</button>
+                <div 
+                className='link-title-2 email-title'
+                id='email'
+                value='granierc@protonmail.com'
+                onClick={copyToClipboard}>{isCopied ? 'mail copied!' : 'copy link?'}</div>
+                </div>
+                </span>
+                </div>
             </div>
             <div className='line'> </div>
             <div className='github'>
@@ -27,7 +50,7 @@ const Contact = () => {
                 <a href='https://github.com/camille-granier' 
                    rel='noreferrer'
                    target='_blank'
-                   className='github-link'>
+                   className='link'>
                     <span className='mask'>
                         <div className='github-link-container'>
                         <span className="link-title-1 github-title">@camille-granier</span>

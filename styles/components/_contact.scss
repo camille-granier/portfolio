@@ -5,6 +5,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    .link-title-2 {
+        display: none;
+    }
+
+    .email-title {
+        cursor: pointer;
+    }
+
     h2 {
         font-family: Roboto;
         font-size: 50px;
@@ -62,6 +71,7 @@ button {
             font-size: $sm;
         }
     }
+
 }
 
 @include breakpoint-up(large) {
@@ -74,49 +84,67 @@ button {
         font-size: $x-sm;
     }
     }
+
+    .link{
+        // margin-top: 2.4rem;
+        height: 1.875rem;
+        display: flex;
+        align-items: center;
+        line-height: 1.1;
+    }
+    
+    .mask {
+        position: relative;
+        padding: 0;
+        height: 1.6rem;
+        overflow: hidden;
+    }
+    
+    .github-title {
+        display: block;
+        transition: transform 0.4s ease;
+    }
+
+    .email-title {
+        display: block;
+        transition: transform 0.4s ease;
+    }
+    
+    .link-title-1 {
+        transform-origin: right center;
+    }
+    
+    .contact {
+
+    .link-title-2 {
+        display: block;
+        transform-origin: left center;
+        transform: rotate(15deg);
+    }
+}
+    
+    .github-link-container {
+        transition: transform 0.4s ease;
+    }
+
+    .email-link-container {
+        transition: transform 0.4s ease;
+    }
+    
+    .mask:hover .github-link-container{
+        transform: translateY(-22px);
+    }
+
+    .mask:hover .email-link-container{
+        transform: translateY(-22px);
+    }
+    
+    .mask:hover .link-title-1 {
+        transform: rotate(20deg);
+    }
+    
+    .mask:hover .link-title-2 {
+        transform: rotate(0);
+    }
 }
 
-.github-link{
-    margin-top: 2.4rem;
-    height: 1.875rem;
-    display: flex;
-    align-items: center;
-    line-height: 1.1;
-}
-
-.mask {
-    position: relative;
-    padding: 0;
-    height: 1.6rem;
-    overflow: hidden;
-}
-
-.github-title {
-    display: block;
-    transition: transform 0.4s ease;
-}
-
-.link-title-1 {
-    transform-origin: right center;
-}
-
-.link-title-2 {
-    transform-origin: left center;
-    transform: rotate(15deg);
-}
-
-.github-link-container {
-    transition: transform 0.4s ease;
-}
-
-.mask:hover .github-link-container{
-    transform: translateY(-22px);
-}
-
-.mask:hover .link-title-1 {
-    transform: rotate(20deg);
-}
-
-.mask:hover .link-title-2 {
-    transform: rotate(0);
-}
