@@ -18,6 +18,8 @@
   font-family: Roboto;
   animation: text 2s ease;
   h1 {
+    line-height: 1.1;
+    font-size: 3rem;
     padding: 0px;
     margin: 0px;
   }
@@ -56,11 +58,11 @@ h1 {
   .sm-title {
     padding: 10px 5px;
   }
-}
 
-.title-container {
-  h1 {
-    font-size: 4rem;
+  .title-container {
+    h1 {
+      font-size: 4rem;
+    }
   }
 }
 

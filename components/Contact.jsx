@@ -22,7 +22,9 @@ const Contact = () => {
     return (
         <div className='contact'
              id='contact'>
+            <span className='contact-mask'>
             <h2>Contact me</h2>
+            </span>
             <div className='links-container'>
             <div className='line'> </div>
                 <div className='email'>

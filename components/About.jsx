@@ -2,9 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
+        <span className='about-mask'>
         <div className='about'>
-            I build websites and have a keen interest in UI animations and creative designs
+            I design and build websites with a keen interest in seo and creative designs
         </div>
+        </span>
     );
 };
 
