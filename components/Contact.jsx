@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const Contact = () => {
 
     const [isCopied, setIsCopied] = useState(false);
+    const [textVisible, setTextVisible] = useState(false)
+    const titleRef = useRef();
 
     const copyToClipboard = (e) => {
 
@@ -19,11 +21,29 @@ const Contact = () => {
         }
     }, [isCopied])
 
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries, observer) => {
+        const entry = entries[0];
+        setTextVisible(entry.isIntersecting); 
+        console.log(entry.isIntersecting) 
+        console.log(textVisible)
+      });
+      observer.observe(titleRef.current);
+
+      return () => {
+          //eslint-disable-next-line
+        observer.unobserve(titleRef.current)
+      };
+      //eslint-disable-next-line
+    },[])
+
     return (
         <div className='contact'
              id='contact'>
             <span className='contact-mask'>
-            <h2>Contact me</h2>
+            <h2
+            ref={titleRef}
+            className={ textVisible ? 'title-animation' : ''}>Contact me</h2>
             </span>
             <div className='links-container'>
             <div className='line'> </div>

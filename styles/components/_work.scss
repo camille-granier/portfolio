@@ -2,6 +2,12 @@
     min-height: 100vh;
     height: auto;
     
+    .work-header {
+        font-size: 3rem;
+        margin: 16vh 0px 6vh 0px;
+        text-align: center;
+        font-family: Roboto;
+    }
 
     ul {
         display: flex;
@@ -86,7 +92,13 @@ img:hover {
 @include breakpoint-up(large) {
 
     .work {
-        margin: 0px 50vw;
+        margin: 4vh 0px;
+
+        ul { li {
+            padding: 7vh 10vh;
+        }
+    }
+
     }
     
     a {
@@ -94,12 +106,13 @@ img:hover {
     }
 
     .work-card {
-        justify-content: space-around;
-        margin: 8vh 0px;
+        justify-content: center;
+        margin: 4vh 0px;
     }
 
    .work-card-text{
     max-width: 40vh;
+    padding: 0px 7vh;
    }
 
 }

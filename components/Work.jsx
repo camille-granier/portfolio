@@ -4,6 +4,7 @@ import Image from 'next/image';
 const Work = () => {
     return (
       <div className="work" id="work">
+        <h2 className='work-header'>Work</h2>
         <ul>
           <li className="ffnotes">
             <div className="work-card">
