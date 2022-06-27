@@ -1,6 +1,7 @@
 .work {
     min-height: 100vh;
     height: auto;
+    
 
     ul {
         display: flex;
@@ -8,6 +9,7 @@
         align-items: center;
         margin: 0px;
         padding: 0px;
+
         li {
             list-style-type: none;
             margin: 6vh 8vh;    
@@ -20,9 +22,9 @@
     }
 
     img {
-    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(50%);
-    opacity: 0.45;
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+    opacity: 0.55;
 }
 
 img:hover {

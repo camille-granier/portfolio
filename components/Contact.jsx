@@ -32,7 +32,7 @@ const Contact = () => {
                 <div className='email-link-container'>
                 <button 
                 className='email link-title-1 email-title'
-                id='email'
+                
                 value='granierc@protonmail.com'
                 onClick={copyToClipboard}>granierc@protonmail.com</button>
                 <div 

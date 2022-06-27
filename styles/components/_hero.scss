@@ -16,6 +16,7 @@
 
 .title-container {
   font-family: Roboto;
+  animation: text 2s ease;
   h1 {
     padding: 0px;
     margin: 0px;
@@ -32,6 +33,7 @@
 }
 
 .title-container {
+  animation: text-large 2s ease;
 h1 {
   font-size: $lg;
   font-weight: normal;
@@ -44,11 +46,45 @@ h1 {
   padding: 0;
 }
 
+.title-mask {
+  max-width: 50vw;
+}
 }
 
 @include breakpoint-up(large) {
 
   .sm-title {
     padding: 10px 5px;
+  }
+}
+
+.title-container {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+ .title-mask {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    width: 60vw;
+ }
+
+@keyframes text{
+  0%{
+      transform: translateX(200px);
+  }
+  100%{
+      transform: translateX(0);
+  }
+}
+
+@keyframes text-large{
+  0%{
+      transform: translateX(500px);
+  }
+  100%{
+      transform: translateX(0);
   }
 }
