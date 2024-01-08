@@ -28,7 +28,7 @@ const Work = () => {
           <li className="photo-gallery">
             <div className="work-card photo">
               <a
-                href="https://pictures-photo-gallery.herokuapp.com/"
+                href="https://pictyspace.com/"
                 rel="noreferrer"
                 target="_blank"
               >
