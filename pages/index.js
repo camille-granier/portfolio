@@ -14,7 +14,7 @@ export default function Home() {
         <meta keywords="description" content="web development" />
         <link 
         rel="icon" 
-        href="/img/circle c.svg"
+        href="/img/logo c.svg"
         width="300"
         height="300" />
       </Head>

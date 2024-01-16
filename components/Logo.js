@@ -5,7 +5,7 @@ const Logo = () => (
   <div className='logo'>
     <a href="#">
     <Image 
-    src="/img/circle c.svg" 
+    src="/img/logo c.svg" 
     alt='logo'
     width="500"
     height="500" />
