@@ -28,7 +28,7 @@ const Work = () => {
           <li className="photo-gallery">
             <div className="work-card photo">
               <a
-                href="https://pictyhub.com/"
+                href="www.pictyhub.com/"
                 rel="noreferrer"
                 target="_blank"
               >
