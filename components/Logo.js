@@ -7,8 +7,8 @@ const Logo = () => (
     <Image 
     src="/img/logo c.svg" 
     alt='logo'
-    width="500"
-    height="500" />
+    width="480"
+    height="480" />
     </a>
   </div>
 );
