@@ -15,8 +15,8 @@ export default function Home() {
         <link 
         rel="icon" 
         href="/img/logo c.svg"
-        width="300"
-        height="300" />
+        width="380"
+        height="380" />
       </Head>
      <Header/>
      <Hero />
