@@ -59,7 +59,6 @@ const Contact = () => {
                     </span>
                    </a>
             </div>
-            </div>
             <div className='line'> </div>
             <div className='github'>
                 <p>Github</p>
@@ -78,6 +77,7 @@ const Contact = () => {
             <div className='line'> </div>
             </div>
         </div>
+
     );
 };
 
