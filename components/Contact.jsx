@@ -47,24 +47,18 @@ const Contact = () => {
             </span>
             <div className='links-container'>
             <div className='line'> </div>
-                <div className='email'>
+            <div className='github'>
                 <p>Email</p>
-                <div className='link'>
-                <span className='mask'>
-                <div className='email-link-container'>
-                <button 
-                className='email link-title-1 email-title'
-                
-                value='granierc@protonmail.com'
-                onClick={copyToClipboard}>granierc@protonmail.com</button>
-                <div 
-                className='link-title-2 email-title'
-                id='email'
-                value='granierc@protonmail.com'
-                onClick={copyToClipboard}>{isCopied ? 'mail copied!' : 'copy link?'}</div>
-                </div>
-                </span>
-                </div>
+                <a href="mailto:granierc@protonmail.com" 
+                   className='link'>
+                    <span className='mask'>
+                        <div className='github-link-container'>
+                        <span className="link-title-1 github-title">granierc@protonmail.com</span>
+                        <span className="link-title-2 github-title">granierc@protonmail.com</span>
+                        </div>
+                    </span>
+                   </a>
+            </div>
             </div>
             <div className='line'> </div>
             <div className='github'>
