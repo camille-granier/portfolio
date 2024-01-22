@@ -33,8 +33,8 @@ const Work = () => {
                 target="_blank"
               >
                 <Image
-                  src="/img/photogallery.png"
-                  alt="photogallery thumbnail"
+                  src="/img/pictyhub.png"
+                  alt="pictyhub website thumbnail"
                   width="500"
                   height="263"
                 />
