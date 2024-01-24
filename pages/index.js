@@ -10,8 +10,15 @@ export default function Home() {
     <div className='container'>
       <Head>
         <title>Camille Granier</title>
-        <meta name="description" content="Camille Granier - front end developer portfolio" />
-        <meta keywords="description" content="web development" />
+        <meta name="description" content="Camille Granier - front end developer" />
+        <meta name="description" content="Camille Granier is a front-end developer with a passion for creative and interactive design" />
+        <meta name="image" content="https://https://www.camille-granier.com/"></meta>
+        <meta name="author" content="Camille Granier"></meta>
+        <meta property="og:title" content="Camille Granier - front end developer"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:image" content="https://www.camille-granier.com/"></meta>
+        <meta property="og:url" content="https://www.camille-granier.com/"></meta>
+        <meta property="og:description" content="Camille Granier is a front-end developer with a passion for creative and interactive design"></meta>
         <link 
         rel="icon" 
         href="/img/logo c.svg"
