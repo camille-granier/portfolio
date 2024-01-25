@@ -18,6 +18,7 @@ export default function Home() {
         <meta property="og:type" content="website"></meta>
         <meta property="og:image" content="https://www.camille-granier.com/img/hero.png"></meta>
         <meta property="og:url" content="https://www.camille-granier.com/"></meta>
+        <meta name="updated_time" content="1706141379"></meta>
         <meta property="og:description" content="Camille Granier is a front-end developer with a passion for creative and interactive design"></meta>
         <link 
         rel="icon" 
